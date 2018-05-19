@@ -1,10 +1,16 @@
 ! xterm settings
-xterm*VT100*geometry:     80x24
-xterm*faceName:           xos4 Terminus:size=12:antialias=true
-xterm*faceSize:           12
-xterm*utf8:               1
-xterm*locale:             true
-xterm*transparent:        true
+xterm*VT100*geometry:   80x24
+xterm*faceName:         xos4 Terminus:size=12:medium:antialias=true:autohinting=true
+xterm*faceSize:         12
+xterm*utf8:             1
+xterm*locale:           true
+xterm*transparent:      true
+
+! wide font configuration
+*.font:                 xos4 Terminus:size=12:medium:antialias=true:autohinting=true
+*.boldFont:             xos4 Terminus:size=12:bold:antialias=true:autohinting=true
+*.italicFont:           xos4 Terminus:size=12:antialias=true:autohinting=true
+*.boldItalicFont:       xos4 Terminus:size=12:bold:antialias=true:autohinting=true
 
 ! special
 *.foreground:   #c5c8c6
