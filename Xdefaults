@@ -35,9 +35,14 @@ urxvt.resource:               value
 
 
 ! xterm
-xterm*VT100*geometry:         80x24
-xterm*faceName:               xft:xos4 Terminus:size=12:antialias=true
+xterm*VT340*geometry:         80x24
+xterm*decTerminalID:          vt340
+xterm*background:             black
+xterm*foreground:             red
+xterm*faceName:               Monospace
 xterm*faceSize:               12
+xterm*scrollBar:              true
+xterm*rightScrollBar:         true
 xterm*renderFont:             true
 xterm*utf8:                   always
 xterm*utf8Title:              true
