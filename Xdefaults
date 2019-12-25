@@ -13,7 +13,7 @@ urxvt.saveLines:              10000
 urxvt.inheritPixmap:          true
 urxvt.shading:                20
 urxvt.clipboard.autocopy:     true
-urxvt.perl-ext-common:        default,selection-to-clipboard,pasta,matcher,keyboard-select,resize-font,font
+urxvt.perl-ext-common:        default,selection-to-clipboard,matcher
 urxvt.keysym.M-u:             perl:url-select:select_next
 urxvt.transparent:            true
 urxvt.buffered:               true
